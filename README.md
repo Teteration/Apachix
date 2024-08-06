@@ -1,5 +1,6 @@
 # Apachix
 A journey to web serving + proxy serving + caching + Load Balancing 
+basic senario to advance. step by step
 
 
 
