@@ -1,0 +1,23 @@
+services:
+  Reverse_proxy:
+    image: nginx
+    container_name: Reverse_proxy_
+    ports:
+      - "83:81"
+    volumes:
+      - ~/docker-nginx/html:/usr/share/nginx/html
+      - ~/docker-nginx/nginx.conf:/etc/nginx/nginx.conf
+
+  Apache2:
+    image: my-apache_custom
+    container_name: Apache2_
+    ports:
+      - "82:82"
+    volumes:
+      - ~/docker-nginx/apache_custom/my-httpd.conf:/usr/local/apache2/conf/httpd.conf
+
+  Apache1:
+    image: httpd
+    container_name: Apache1_
+    ports:
+      - "84:80"
