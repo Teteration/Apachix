@@ -1,6 +1,9 @@
 # Apachix
 A journey to web serving + proxy serving + caching + Load Balancing
 
+&nbsp;&nbsp;<img src="[https://img.shields.io/static/v1?label=&labelColor=lightblue&message=Python&color=blue&style=flat&logo=python&logoColor=black](https://img.shields.io/static/v1?label=&labelColor=white&message=Nginx&color=darkgreen&style=flat&logo=Nginx&logoColor=black)">&nbsp;&nbsp;<img src="[https://img.shields.io/static/v1?label=&labelColor=gray&message=Bash&color=orange&style=flat&logo=linux&logoColor=black](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white)">
+
+
 basic senario to advance. step by step
 
 
