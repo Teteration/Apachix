@@ -1,5 +1,5 @@
 # Apachix
-A journey to web serving + proxy serving + caching + Load Balancing
+A journey to Web Serving + Proxy Serving + Caching + Load Balancing
 
 &nbsp;&nbsp;
 <img src="https://img.shields.io/static/v1?label=&labelColor=white&message=Nginx&color=darkgreen&style=flat&logo=Nginx&logoColor=black">
