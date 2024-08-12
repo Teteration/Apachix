@@ -1,5 +1,5 @@
 # Apachix
-A journey to Web Serving + Proxy Serving + Caching + Load Balancing
+A Journey to Learning HTTP Protocol + Services(Web Serving + Proxy Serving + Caching + Load Balancing)
 
 &nbsp;&nbsp;
 <img src="https://img.shields.io/static/v1?label=&labelColor=white&message=Nginx&color=darkgreen&style=flat&logo=Nginx&logoColor=black">
@@ -31,7 +31,9 @@ day 4: ACL and Access Management
 
 day 5: Hardening
 
-day 6: ...
+day 6: HTTP Connection: parallel, Persistent(Keep-Alive), Pipelined, Multiplexed
+
+day 7: H2
 
 .
 
@@ -45,7 +47,9 @@ day 16: Load Balancer
 
 day 17: Cache Server
 
-day 18: HTTP Smuggling
+day 18: Over HTTP Attacks: Smuggling, SlowLoris
 
-day 19: The End of Journey, Congrat, Now you are supper hero in HTTP Services. G00d Luck!
+day 19: Hardening + Mitigation
+
+day 20: The End of Journey, Congrats, Now you are a superhero in HTTP Protocol + Services!
 
