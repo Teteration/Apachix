@@ -1,5 +1,5 @@
 ### Run
 ```
-docker run --name Apache2 -p 82:82 -v ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf -d my-apache_custom
+docker run --name Day1 -p 82:82 -v ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf -d httpd
 ```
 
