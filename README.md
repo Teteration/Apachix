@@ -48,6 +48,8 @@ day 16: Load Balancer
 
 day 17: Cache Server
 
+day 17.5: Proxy Hierarchies
+
 day 18: Over HTTP Attacks: Smuggling, SlowLoris
 
 day 19: Hardening + Mitigation
