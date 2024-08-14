@@ -1,7 +1,12 @@
+version: '3.8'
+
 services:
   Reverse_proxy:
     image: nginx
     container_name: Reverse_proxy_
+    networks:
+      my-network:
+        ipv4_address: 172.20.0.3
     ports:
       - "83:81"
     volumes:
@@ -11,6 +16,9 @@ services:
   Apache2:
     image: my-apache_custom
     container_name: Apache2_
+    networks:
+      my-network:
+        ipv4_address: 172.20.0.4
     ports:
       - "82:82"
     volumes:
@@ -19,5 +27,15 @@ services:
   Apache1:
     image: httpd
     container_name: Apache1_
+    networks:
+      my-network:
+        ipv4_address: 172.20.0.2
     ports:
       - "84:80"
+
+networks:
+  my-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
