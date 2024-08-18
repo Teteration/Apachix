@@ -50,6 +50,8 @@ day 17: Cache Server
 
 day 17.5: Proxy Hierarchies
 
+day 17.6: Trace Method(Debugging Proxies Route)
+
 day 18: Over HTTP Attacks: Smuggling, SlowLoris
 
 day 19: Hardening + Mitigation
